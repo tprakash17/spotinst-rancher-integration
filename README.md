@@ -1,3 +1,4 @@
+![rancher-spotinst](https://user-images.githubusercontent.com/38158144/39124324-abf86ade-4718-11e8-82b5-5322cd5d7408.jpeg)
 
 # spotinst-rancher-integration
 Project is to help in reducing overall AWS infrastructure cost if you are running kubernetes using rancher on AWS.
