@@ -9,7 +9,7 @@ We use rancher to setup kubernetes and till now, we were using EC2 on demand ins
 
 You can read more about rancher and spotinst on the provided links.
 
-# Prerequisites & their installation
+# Prerequisites & installation
 
 Things you need before you can start. 
 
