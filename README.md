@@ -47,13 +47,12 @@ providers {
   spotinst = "/opt/spotinst/terraform-provider-spotinst"
 }
 ```
-# Clone repository & Make Necessary changes before applying changes
-Before you can run terraform apply. Please make sure we update all the files with required values. 
+# Clone repository & Make Necessary changes before terraform apply.
 
 ```
 $ terraform plan
 $ terraform apply
 ```
 
-Note :- Spotinst account ID and API token (can be generated via spotinst account console).
+Note :- Spotinst account ID and API token (can be generated via spotinst account console). 
  
