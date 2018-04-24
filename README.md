@@ -28,8 +28,8 @@ Default output format [None]:
 
 
 $ wget https://releases.hashicorp.com/terraform/0.11.5/terraform_0.11.5_linux_amd64.zip
-$ unzip terraform_0.9.5_linux_amd64.zip
-$ mv terraform_0.9.5_linux_amd64 terraform
+$ unzip terraform_0.11.5_linux_amd64.zip
+$ mv terraform_0.11.5_linux_amd64 terraform
 $ cp -prf terraform /usr/bin/ /usr/sbin/ /usr/local/bin/terraform
 
 $ mkdir -p /opt/spotinst
