@@ -37,8 +37,23 @@ $ cd /opt/spotinst
 $ wget http://spotinst-public.s3.amazonaws.com/integrations/terraform/v0.11.4/linux_amd64/terraform-provider-spotinst
 $ chmod +x terraform-provider-spotinst
 ```
-# Clone repository
 
-# Make Necessary changes 
+Terraform should be able to find Spotinst binary. So let’s configure that.
+```
+$ touch ~/.terraformrc
+$ vi ~/.terraformrc
+$ cat ~/.terraformrc
+providers {
+  spotinst = "/opt/spotinst/terraform-provider-spotinst"
+}
+```
+# Clone repository & Make Necessary changes before applying changes
 Before you can run terraform apply. Please make sure we update all the files with required values. 
+
+```
+$ terraform plan
+$ terraform apply
+```
+
+Note :- Spotinst account ID and API token (can be generated via spotinst account console).
  
