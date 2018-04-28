@@ -47,6 +47,11 @@ providers {
   spotinst = "/opt/spotinst/terraform-provider-spotinst"
 }
 ```
+
+# To generate TOKEN needed in compute-userdata.tpl file.
+
+![rancher-env-token](https://user-images.githubusercontent.com/38158144/39396196-7438892e-4b07-11e8-8101-08f2740ea316.jpg)
+
 # Clone repository & Make Necessary changes before terraform apply.
 
 ```
