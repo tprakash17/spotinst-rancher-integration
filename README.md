@@ -49,6 +49,7 @@ providers {
 ```
 
 # To generate TOKEN needed in compute-userdata.tpl file.
+Go to ENV ( upper left corner ) > Infrastructure > Hosts > Click on add host. Copy and paste the token in compute-userdata.tpl and it can be found underlined in the following screenshot.
 
 ![rancher-env-token](https://user-images.githubusercontent.com/38158144/39396196-7438892e-4b07-11e8-8101-08f2740ea316.jpg)
 
